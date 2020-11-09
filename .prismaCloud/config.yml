@@ -1,10 +1,9 @@
 template_type: TF
 terraform_version: 0.12
 terraform_012_parameters:
-  - root_module: /
-#   - root_module: datafactory/
-#     variable_files:
-#       - datafactory/variables.tf
+  - root_module: bad-storage-acc/
+    variable_files:
+      - bad-storage-acc/variables.tf
 tags:
   - 'Org: Panw'
   - 'Team: ShiftLeft'
