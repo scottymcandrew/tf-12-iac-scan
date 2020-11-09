@@ -1,16 +1,10 @@
 template_type: TF
 terraform_version: 0.12
 terraform_012_parameters:
-  - root_module: rich-value-types/
-    variable_files:
-      - rich-value-types/variables.tf
-  - root_module: rich-value-types/network/
-    variable_files:
-      - rich-value-types/network/variables.tf
-  - root_module: TF12-aws-for-expressions/for-expressions/
-  - root_module: datafactory/
-    variable_files:
-      - datafactory/variables.tf
+  - root_module: /
+#   - root_module: datafactory/
+#     variable_files:
+#       - datafactory/variables.tf
 tags:
   - 'Org: Panw'
   - 'Team: ShiftLeft'
