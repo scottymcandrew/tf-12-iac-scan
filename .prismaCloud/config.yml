@@ -1,10 +1,7 @@
 template_type: TF
 terraform_version: 0.12
-terraform_012_parameters:
-  - root_module: bad-storage-acc/
-    variable_files:
-      - bad-storage-acc/vars.tf
+
 tags:
-  - 'Org: Panw'
-  - 'Team: ShiftLeft'
-  - 'Env: Dev'
+  - 'Org: Scotty'
+  - 'Team: Scotty Tiger Team'
+  - 'Env: Devel'
